@@ -9,6 +9,7 @@ const storage = new CloudinaryStorage({
     folder: "holohaven/products",
     allowed_formats: ["jpg", "png", "webp", "jpeg"],
     transformation: [{ width: 1024, crop: "limit" }],
+    secure: true,
   },
 });
 
